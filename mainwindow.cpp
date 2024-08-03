@@ -27,6 +27,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow() {}
 
+
 void MainWindow::launchProgram() {
     QString command = commandInput->text();
     QStringList arguments;
